@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+
+<context:annotation-config/>
+
+<context:component-scan base-package="com.test.springapplications"></context:component-scan>
+  
+  
+ <!-- <bean id="employee" class="com.accenture.Employee" lazy-init="true">
+	<property name="id" value="1001"></property>
+	<property name="name" value="Deepesh"></property>
+</bean>
+
+<bean id="a" class="com.accenture.Address" lazy-init="true">
+	<property name="city" value="pune"></property>
+	<property name="zip" value="411013"></property>
+</bean>
+<bean id="a1" class="com.accenture.Address" lazy-init="true">
+	<property name="city" value="pune"></property>
+	<property name="zip" value="411013111"></property>
+</bean> -->
+
+</beans>

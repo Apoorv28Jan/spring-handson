@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="e" class="com.test.springapplications.Employee" lazy-init="true" autowire="byName">
+<!-- 
+autowire byType - when we have only one object of address object in employee 
+and one bean definition in spring.xml 
+autowire constructor - Same like byType but through constructor 
+injection not setter injection
+ -->	
+</bean>
+
+<bean id="pAddress" class="com.test.springapplications.Address" lazy-init="true">
+	<property name="city" value="pune"></property>
+	<property name="zip" value="411013"></property>
+</bean>
+<bean id="rAddress" class="com.test.springapplications.Address" lazy-init="true">
+	<property name="city" value="mumbai"></property>
+	<property name="zip" value="411015"></property>
+</bean>
+
+</beans>

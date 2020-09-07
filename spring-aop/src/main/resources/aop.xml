@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.2.xsd">
+
+<aop:aspectj-autoproxy proxy-target-class="true"/>
+<context:annotation-config/>
+<bean id="circle" class="com.test.springapplications.entity.Circle" lazy-init="true"/>
+<bean id="triangle" class="com.test.springapplications.entity.Triangle" lazy-init="true"/>
+<bean id="shape" class="com.test.springapplications.entity.Shape" autowire="byName" lazy-init="true"/>
+<bean id="logging" class="com.test.springapplications.aspect.LoggingAspect" lazy-init="true"/>
+
+
+
+
+
+</beans>

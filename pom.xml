@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>springhandson</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>springlearning</module>
+        <module>spring-annotations</module>
+        <module>springannotations-primary</module>
+        <module>spring-aop</module>
+        <module>spring-di</module>
+        <module>springdi-autowiring</module>
+        <module>springdi-collections</module>
+        <module>springmvc-simple</module>
+        <module>springboot-demo</module>
+        <module>hibernate-demo</module>
+        <module>jpa-demo</module>
+        <module>spring-jdbc</module>
+        <module>springmvc-crud</module>
+        <module>hibernatedemo-annotation</module>
+        <module>spring-transaction</module>
+        <module>springboot-rest</module>
+        <module>reverse</module>
+        <module>sorting</module>
+        <module>person</module>
+    </modules>
+
+
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="collection" class="com.test.springapplications.CollectionClass">
+	<property name="addressList">
+		<list>
+			<value>India</value>
+			<value>Japan</value>
+			<value>USA</value>
+		</list>
+	</property>
+	<property name="addressMap">
+		<map>
+			<entry key="1" value="India"></entry>
+			<entry key="2" value="Japan"></entry>
+			<entry key="3" value="USA"></entry>
+		</map>
+	</property>
+
+</bean>
+
+
+</beans>

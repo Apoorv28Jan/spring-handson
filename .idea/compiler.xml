@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-transaction" />
+        <module name="springdi-collections" />
+        <module name="springmvc-simple" />
+        <module name="spring-annotations" />
+        <module name="hibernate-demo" />
+        <module name="hibernatedemo-annotation" />
+        <module name="springlearning" />
+        <module name="reverse" />
+        <module name="spring-di" />
+        <module name="springboot-demo" />
+        <module name="spring-jdbc" />
+        <module name="springmvc-crud" />
+        <module name="spring-aop" />
+        <module name="person" />
+        <module name="springannotations-primary" />
+        <module name="springboot-rest" />
+        <module name="springdi-autowiring" />
+        <module name="sorting" />
+        <module name="jpa-demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

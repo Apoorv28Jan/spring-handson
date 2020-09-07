@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="e" class="com.test.springapplications.Employee" lazy-init="true">
+	<property name="id" value="1001"></property>
+	<property name="name" value="Deepesh"></property>
+	<property name="address" ref="a"></property>
+	<!-- <constructor-arg value="1001"></constructor-arg>
+	<constructor-arg value="deepesh"></constructor-arg>
+	<constructor-arg ref="a"></constructor-arg> -->
+	
+</bean>
+
+<bean id="a" class="com.test.springapplications.Address" >
+	<property name="city" value="pune"></property>
+	<property name="zip" value="411013"></property>
+	<!-- <constructor-arg value="pune"></constructor-arg>
+	<constructor-arg value="411013"></constructor-arg> -->
+</bean>
+
+</beans>

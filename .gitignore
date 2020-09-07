@@ -1,0 +1,20 @@
+# Project exclude paths
+/hibernate-demo/target/
+/hibernatedemo-annotation/target/
+/jpa-demo/target/
+/person/target/
+/reverse/target/
+/sorting/target/
+/spring-annotations/target/
+/spring-aop/target/
+/spring-di/target/
+/spring-jdbc/target/
+/spring-transaction/target/
+/springannotations-primary/target/
+/springboot-demo/target/
+/springboot-rest/target/
+/springdi-autowiring/target/
+/springdi-collections/target/
+/springlearning/target/
+/springmvc-crud/target/
+/springmvc-simple/target/
